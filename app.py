@@ -198,7 +198,7 @@ def make_profile_check_request(encrypted_profile_payload, server_name, token_dic
         'Expect': "100-continue",
         'X-Unity-Version': "2018.4.11f1",
         'X-GA': "v1 1",
-        'ReleaseVersion': "OB51"
+        'ReleaseVersion': "OB52"
     }
     try:
         response = requests.post(url, data=edata, headers=headers, verify=False, timeout=10)
